@@ -9,10 +9,15 @@ target 'Hubba' do
   pod ‘Alamofire’
   pod ‘SwiftyJSON’
   pod ‘SDWebImage’
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
 
   target 'HubbaTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Nimble'
+    pod 'Quick'
   end
 
 end
