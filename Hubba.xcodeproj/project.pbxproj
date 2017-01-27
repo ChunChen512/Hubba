@@ -13,6 +13,21 @@
 		42A287C91E33F91A00A44A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A287C81E33F91A00A44A3E /* Assets.xcassets */; };
 		42A287CC1E33F91A00A44A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A287CA1E33F91A00A44A3E /* LaunchScreen.storyboard */; };
 		42A287D71E33F91A00A44A3E /* HubbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287D61E33F91A00A44A3E /* HubbaTests.swift */; };
+		42A287E31E3401EE00A44A3E /* HProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E21E3401EE00A44A3E /* HProductModel.swift */; };
+		42A287E61E34586A00A44A3E /* HNetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E51E34586A00A44A3E /* HNetworkEngine.swift */; };
+		42A287E81E34609B00A44A3E /* HAPIProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E71E34609B00A44A3E /* HAPIProducts.swift */; };
+		42A287EA1E34639000A44A3E /* HAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E91E34639000A44A3E /* HAPIManager.swift */; };
+		42A287F41E35B29000A44A3E /* HAPIProductsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287F31E35B29000A44A3E /* HAPIProductsSpec.swift */; };
+		42A287F51E35B29B00A44A3E /* HAPIProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E71E34609B00A44A3E /* HAPIProducts.swift */; };
+		42A287F61E35B37D00A44A3E /* HNetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E51E34586A00A44A3E /* HNetworkEngine.swift */; };
+		42A287F71E35B42100A44A3E /* HProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E21E3401EE00A44A3E /* HProductModel.swift */; };
+		42A287FA1E365EEB00A44A3E /* HProductModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */; };
+		42A287FD1E366E4900A44A3E /* HProductsTableViewCellSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */; };
+		42A288001E36B42D00A44A3E /* HProductsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */; };
+		42A288021E36BC3600A44A3E /* HAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E91E34639000A44A3E /* HAPIManager.swift */; };
+		42D4C6DC1E3AFC7100EE1E14 /* HProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C6D91E3AFC7100EE1E14 /* HProductDetailViewController.swift */; };
+		42D4C6DD1E3AFC7100EE1E14 /* HProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C6DA1E3AFC7100EE1E14 /* HProductsTableViewCell.swift */; };
+		42D4C6DE1E3AFC7100EE1E14 /* HProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C6DB1E3AFC7100EE1E14 /* HProductsViewController.swift */; };
 		C083846CF7482767C24205D1 /* Pods_Hubba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B52770A547F0751EE96CA77 /* Pods_Hubba.framework */; };
 		C7A7488158EAFDE90C5929C2 /* Pods_HubbaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B705C6B377237150726800 /* Pods_HubbaTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +55,18 @@
 		42A287D21E33F91A00A44A3E /* HubbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A287D61E33F91A00A44A3E /* HubbaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubbaTests.swift; sourceTree = "<group>"; };
 		42A287D81E33F91A00A44A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A287E21E3401EE00A44A3E /* HProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductModel.swift; sourceTree = "<group>"; };
+		42A287E51E34586A00A44A3E /* HNetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNetworkEngine.swift; sourceTree = "<group>"; };
+		42A287E71E34609B00A44A3E /* HAPIProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAPIProducts.swift; sourceTree = "<group>"; };
+		42A287E91E34639000A44A3E /* HAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAPIManager.swift; sourceTree = "<group>"; };
+		42A287F31E35B29000A44A3E /* HAPIProductsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAPIProductsSpec.swift; sourceTree = "<group>"; };
+		42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductModelSpec.swift; sourceTree = "<group>"; };
+		42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsTableViewCellSpec.swift; sourceTree = "<group>"; };
+		42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsViewControllerSpec.swift; sourceTree = "<group>"; };
+		42D4C6D91E3AFC7100EE1E14 /* HProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductDetailViewController.swift; sourceTree = "<group>"; };
+		42D4C6DA1E3AFC7100EE1E14 /* HProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsTableViewCell.swift; sourceTree = "<group>"; };
+		42D4C6DB1E3AFC7100EE1E14 /* HProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsViewController.swift; sourceTree = "<group>"; };
+		42D80C8D1E39B08700F1EC37 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		4B52770A547F0751EE96CA77 /* Pods_Hubba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7300AC85F83C5ACF4557F34B /* Pods-Hubba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hubba/Pods-Hubba.debug.xcconfig"; sourceTree = "<group>"; };
 		8049D5A453A9924B5A0AF758 /* Pods-HubbaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubbaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HubbaTests/Pods-HubbaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +116,15 @@
 		42A287C01E33F91A00A44A3E /* Hubba */ = {
 			isa = PBXGroup;
 			children = (
+				42A287E41E34022E00A44A3E /* API */,
 				42A287C11E33F91A00A44A3E /* AppDelegate.swift */,
-				42A287C31E33F91A00A44A3E /* ViewController.swift */,
-				42A287C51E33F91A00A44A3E /* Main.storyboard */,
 				42A287C81E33F91A00A44A3E /* Assets.xcassets */,
-				42A287CA1E33F91A00A44A3E /* LaunchScreen.storyboard */,
 				42A287CD1E33F91A00A44A3E /* Info.plist */,
+				42A287CA1E33F91A00A44A3E /* LaunchScreen.storyboard */,
+				42A287C51E33F91A00A44A3E /* Main.storyboard */,
+				42D4C6D81E3AFC7100EE1E14 /* Products */,
+				42A287E11E3401D600A44A3E /* Model */,
+				42A287C31E33F91A00A44A3E /* ViewController.swift */,
 			);
 			path = Hubba;
 			sourceTree = "<group>";
@@ -102,15 +132,72 @@
 		42A287D51E33F91A00A44A3E /* HubbaTests */ = {
 			isa = PBXGroup;
 			children = (
+				42A287FB1E366E2800A44A3E /* Products */,
+				42A287F81E365ECC00A44A3E /* Model */,
+				42A287F21E35B26C00A44A3E /* API */,
 				42A287D61E33F91A00A44A3E /* HubbaTests.swift */,
 				42A287D81E33F91A00A44A3E /* Info.plist */,
 			);
 			path = HubbaTests;
 			sourceTree = "<group>";
 		};
+		42A287E11E3401D600A44A3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42A287E21E3401EE00A44A3E /* HProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42A287E41E34022E00A44A3E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				42A287E51E34586A00A44A3E /* HNetworkEngine.swift */,
+				42A287E71E34609B00A44A3E /* HAPIProducts.swift */,
+				42A287E91E34639000A44A3E /* HAPIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		42A287F21E35B26C00A44A3E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				42A287F31E35B29000A44A3E /* HAPIProductsSpec.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		42A287F81E365ECC00A44A3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42A287FB1E366E2800A44A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */,
+				42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		42D4C6D81E3AFC7100EE1E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D4C6D91E3AFC7100EE1E14 /* HProductDetailViewController.swift */,
+				42D4C6DA1E3AFC7100EE1E14 /* HProductsTableViewCell.swift */,
+				42D4C6DB1E3AFC7100EE1E14 /* HProductsViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
 		51E4590FFF2CAD4357F9E5D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42D80C8D1E39B08700F1EC37 /* SafariServices.framework */,
 				4B52770A547F0751EE96CA77 /* Pods_Hubba.framework */,
 				35B705C6B377237150726800 /* Pods_HubbaTests.framework */,
 			);
@@ -184,10 +271,12 @@
 				TargetAttributes = {
 					42A287BD1E33F91A00A44A3E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DY63U6AS7Y;
 						ProvisioningStyle = Automatic;
 					};
 					42A287D11E33F91A00A44A3E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DY63U6AS7Y;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 42A287BD1E33F91A00A44A3E;
 					};
@@ -330,8 +419,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D4C6DC1E3AFC7100EE1E14 /* HProductDetailViewController.swift in Sources */,
+				42D4C6DD1E3AFC7100EE1E14 /* HProductsTableViewCell.swift in Sources */,
 				42A287C41E33F91A00A44A3E /* ViewController.swift in Sources */,
+				42A287E81E34609B00A44A3E /* HAPIProducts.swift in Sources */,
 				42A287C21E33F91A00A44A3E /* AppDelegate.swift in Sources */,
+				42D4C6DE1E3AFC7100EE1E14 /* HProductsViewController.swift in Sources */,
+				42A287E31E3401EE00A44A3E /* HProductModel.swift in Sources */,
+				42A287E61E34586A00A44A3E /* HNetworkEngine.swift in Sources */,
+				42A287EA1E34639000A44A3E /* HAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +435,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A287F41E35B29000A44A3E /* HAPIProductsSpec.swift in Sources */,
+				42A287F71E35B42100A44A3E /* HProductModel.swift in Sources */,
+				42A287FD1E366E4900A44A3E /* HProductsTableViewCellSpec.swift in Sources */,
+				42A287F51E35B29B00A44A3E /* HAPIProducts.swift in Sources */,
+				42A287FA1E365EEB00A44A3E /* HProductModelSpec.swift in Sources */,
+				42A288021E36BC3600A44A3E /* HAPIManager.swift in Sources */,
+				42A288001E36B42D00A44A3E /* HProductsViewControllerSpec.swift in Sources */,
 				42A287D71E33F91A00A44A3E /* HubbaTests.swift in Sources */,
+				42A287F61E35B37D00A44A3E /* HNetworkEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +501,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DY63U6AS7Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -447,6 +552,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DY63U6AS7Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -470,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7300AC85F83C5ACF4557F34B /* Pods-Hubba.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hubba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -483,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CA4A38298EDD6BCEB19487A /* Pods-Hubba.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hubba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
