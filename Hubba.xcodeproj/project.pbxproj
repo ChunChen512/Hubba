@@ -22,8 +22,6 @@
 		42A287F61E35B37D00A44A3E /* HNetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E51E34586A00A44A3E /* HNetworkEngine.swift */; };
 		42A287F71E35B42100A44A3E /* HProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E21E3401EE00A44A3E /* HProductModel.swift */; };
 		42A287FA1E365EEB00A44A3E /* HProductModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */; };
-		42A287FD1E366E4900A44A3E /* HProductsTableViewCellSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */; };
-		42A288001E36B42D00A44A3E /* HProductsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */; };
 		42A288021E36BC3600A44A3E /* HAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A287E91E34639000A44A3E /* HAPIManager.swift */; };
 		42D4C6DC1E3AFC7100EE1E14 /* HProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C6D91E3AFC7100EE1E14 /* HProductDetailViewController.swift */; };
 		42D4C6DD1E3AFC7100EE1E14 /* HProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C6DA1E3AFC7100EE1E14 /* HProductsTableViewCell.swift */; };
@@ -61,8 +59,6 @@
 		42A287E91E34639000A44A3E /* HAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAPIManager.swift; sourceTree = "<group>"; };
 		42A287F31E35B29000A44A3E /* HAPIProductsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAPIProductsSpec.swift; sourceTree = "<group>"; };
 		42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductModelSpec.swift; sourceTree = "<group>"; };
-		42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsTableViewCellSpec.swift; sourceTree = "<group>"; };
-		42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsViewControllerSpec.swift; sourceTree = "<group>"; };
 		42D4C6D91E3AFC7100EE1E14 /* HProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductDetailViewController.swift; sourceTree = "<group>"; };
 		42D4C6DA1E3AFC7100EE1E14 /* HProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsTableViewCell.swift; sourceTree = "<group>"; };
 		42D4C6DB1E3AFC7100EE1E14 /* HProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HProductsViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +128,6 @@
 		42A287D51E33F91A00A44A3E /* HubbaTests */ = {
 			isa = PBXGroup;
 			children = (
-				42A287FB1E366E2800A44A3E /* Products */,
 				42A287F81E365ECC00A44A3E /* Model */,
 				42A287F21E35B26C00A44A3E /* API */,
 				42A287D61E33F91A00A44A3E /* HubbaTests.swift */,
@@ -173,15 +168,6 @@
 				42A287F91E365EEB00A44A3E /* HProductModelSpec.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		42A287FB1E366E2800A44A3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				42A287FC1E366E4900A44A3E /* HProductsTableViewCellSpec.swift */,
-				42A287FF1E36B42D00A44A3E /* HProductsViewControllerSpec.swift */,
-			);
-			path = Products;
 			sourceTree = "<group>";
 		};
 		42D4C6D81E3AFC7100EE1E14 /* Products */ = {
@@ -437,11 +423,9 @@
 			files = (
 				42A287F41E35B29000A44A3E /* HAPIProductsSpec.swift in Sources */,
 				42A287F71E35B42100A44A3E /* HProductModel.swift in Sources */,
-				42A287FD1E366E4900A44A3E /* HProductsTableViewCellSpec.swift in Sources */,
 				42A287F51E35B29B00A44A3E /* HAPIProducts.swift in Sources */,
 				42A287FA1E365EEB00A44A3E /* HProductModelSpec.swift in Sources */,
 				42A288021E36BC3600A44A3E /* HAPIManager.swift in Sources */,
-				42A288001E36B42D00A44A3E /* HProductsViewControllerSpec.swift in Sources */,
 				42A287D71E33F91A00A44A3E /* HubbaTests.swift in Sources */,
 				42A287F61E35B37D00A44A3E /* HNetworkEngine.swift in Sources */,
 			);

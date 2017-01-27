@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 import FBSDKShareKit
-import SnapKit
 
 fileprivate let CellIdentifier = "HProductTableViewCell"
 
